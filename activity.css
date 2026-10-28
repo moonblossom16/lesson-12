@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(193, 115, 224);
+    padding: 65px 30px 30px ;
+    min-height: 1800px;
+}
+
+h1,h2 { color: rgb(95, 3, 126);}
+
+.top-bar, .section-lable {
+    background-color: rgb(177, 17, 129);
+    color: aliceblue;
+    padding: 10px 20px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 20px;
+}
+
+.list-item, .pet-card {
+    background: rgb(107, 83, 182);
+    border: 2px solid blue;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+
+.special-note {
+    position: realtive;
+    left: 30px;
+    background: palevioletred;
+    padding: 10px 20px;
+}
+
+.pet-card {
+    position: relative;
+    border-width:3px;
+    padding: 15px 25px;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgb(98, 157, 206);
+    color: rgb(248, 239, 239);
+    padding: 4px 8px;
+}
+
+.section-lable {
+    position: sticky;
+    top: 55px;
+    margin: 15px 0 8px;
+}
+
